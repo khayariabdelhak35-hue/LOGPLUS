@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diagnostique de Forages - Évaluation complète | LOGPLUS">
+    <title>Diagnostique de Forages - LOGPLUS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                        <img src="logo.png" alt="LOGPLUS Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h1>LOGPLUS</h1>
+                            <p class="tagline">DIAGRAPHIE & CAMERA VIDEO ET RÉHABILITATION DES FORAGES</p>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#entreprise">L'Entreprise</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="materiel-modern.html">Matériel</a></li>
+                        <li><a href="index.html#stats">Nos Chiffres</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-stethoscope"></i> Diagnostique de Forages</h1>
+            <p>Évaluation complète de l'état de vos forages</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-content">
+                <div class="intro-box">
+                    <h2>Le processus de diagnostique est essentiel pour garantir l'efficacité de la réhabilitation</h2>
+                    <p>Le diagnostique se base sur deux approches complémentaires pour une évaluation complète de vos forages.</p>
+                </div>
+
+                <div class="phase-section">
+                    <h3><span class="phase-number">1</span> Auscultation par Caméra-Vidéo</h3>
+                    <p class="phase-intro">C'est une étape d'inspection visuelle fondamentale :</p>
+                    
+                    <div class="objective-box">
+                        <h4><i class="fas fa-bullseye"></i> Objectif</h4>
+                        <p>Avoir une idée claire sur l'état du tubage (crépines comprises).</p>
+                    </div>
+
+                    <h4 style="margin-top: 30px; color: var(--primary-color);"><i class="fas fa-info-circle"></i> Informations obtenues</h4>
+                    <p>Elle permet de localiser et d'identifier précisément les anomalies structurelles ou les obstructions :</p>
+                    
+                    <div class="problems-grid">
+                        <div class="problem-card danger">
+                            <div class="problem-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <h5>Détérioration du tubage</h5>
+                            <p>Fissures, corrosion, déboîtement des colonnes.</p>
+                        </div>
+                        
+                        <div class="problem-card warning">
+                            <div class="problem-icon">
+                                <i class="fas fa-fill-drip"></i>
+                            </div>
+                            <h5>Encrassement</h5>
+                            <p>Dépôts de tartre, d'oxydes métalliques (fer, manganèse) ou de boues bactériennes (biofilm) qui obstruent les crépines.</p>
+                        </div>
+                        
+                        <div class="problem-card alert">
+                            <div class="problem-icon">
+                                <i class="fas fa-ban"></i>
+                            </div>
+                            <h5>Intrusions</h5>
+                            <p>Présence de corps étrangers ou d'éboulements (sédiments) dans le fond du puits.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="phase-section">
+                    <h3><span class="phase-number">2</span> Essais de Pompage par Paliers</h3>
+                    <p class="phase-intro">C'est une étape d'évaluation hydrodynamique du puits :</p>
+                    
+                    <div class="objective-box">
+                        <h4><i class="fas fa-bullseye"></i> Objectif</h4>
+                        <p>Évaluer le débit critique et la performance hydraulique de l'ouvrage.</p>
+                    </div>
+
+                    <div class="process-box">
+                        <h4><i class="fas fa-play-circle"></i> Déroulement</h4>
+                        <p>Le pompage est effectué à des débits croissants (par paliers).</p>
+                    </div>
+
+                    <h4 style="margin-top: 30px; color: var(--primary-color);"><i class="fas fa-chart-bar"></i> Informations obtenues</h4>
+                    
+                    <div class="results-grid">
+                        <div class="result-card">
+                            <h5>Débit critique</h5>
+                            <p>Le débit au-delà duquel la pompe commence à aspirer de l'air ou de grandes quantités de sédiments, ou le niveau d'eau chute de manière disproportionnée (chute spécifique du niveau d'eau).</p>
+                        </div>
+                        
+                        <div class="result-card">
+                            <h5>Rendement du forage</h5>
+                            <p>Comparaison du rendement actuel avec les données initiales pour quantifier la perte de capacité due au dysfonctionnement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conclusion-box">
+                    <div class="conclusion-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="conclusion-content">
+                        <h3>🎯 Conclusion</h3>
+                        <p>L'association de l'auscultation visuelle (cause structurelle et encrassement) et des essais de pompage (conséquence hydraulique) permet de déterminer le problème de l'ouvrage et mène logiquement à la planification de l'intervention de réhabilitation (nettoyage chimique ou mécanique, remplacement de pompe, etc.) la plus appropriée.</p>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Besoin d'un diagnostique pour votre forage ?</h3>
+                    <p>Contactez-nous pour une évaluation personnalisée</p>
+                    <a href="index.html#contact" class="btn btn-primary">Demander un diagnostique</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LOGPLUS</h3>
+                    <p>Diagraphie & Caméra Vidéo et Réhabilitation des Forages.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +212 6XX XX XX XX</li>
+                        <li><i class="fas fa-envelope"></i> Abdelhakkhayari00@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LOGPLUS. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

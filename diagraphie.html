@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diagraphie - Mesures géophysiques en forage | LOGPLUS">
+    <title>Diagraphie - LOGPLUS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                        <img src="logo.png" alt="LOGPLUS Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h1>LOGPLUS</h1>
+                            <p class="tagline">DIAGRAPHIE & CAMERA VIDEO ET RÉHABILITATION DES FORAGES</p>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#entreprise">L'Entreprise</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="materiel-modern.html">Matériel</a></li>
+                        <li><a href="index.html#stats">Nos Chiffres</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-chart-line"></i> Diagraphie</h1>
+            <p>Mesures Géophysiques en Forage</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-content">
+                <div class="intro-box">
+                    <h2>Analyse complète des caractéristiques physiques et géologiques de vos forages</h2>
+                    <p>La diagraphie est une technique essentielle pour comprendre la structure et les propriétés de vos forages. Elle se déroule en deux phases complémentaires.</p>
+                </div>
+
+                <div class="phase-section">
+                    <h3><span class="phase-number">1</span> Premier Enregistrement (Paramètres du Forage et Géométrie)</h3>
+                    <p class="phase-intro">Cette phase se concentre principalement sur les caractéristiques physiques du forage lui-même, avant d'analyser les propriétés des roches :</p>
+                    
+                    <div class="measures-grid">
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-thermometer-half"></i>
+                            </div>
+                            <h4>Température</h4>
+                            <p>Mesure de la température dans le fluide de forage ou la formation.</p>
+                        </div>
+                        
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4>Conductivité</h4>
+                            <p>Mesure de la capacité du fluide de forage à conduire l'électricité.</p>
+                        </div>
+                        
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-ruler"></i>
+                            </div>
+                            <h4>Diamètre du Sondage (Calibre)</h4>
+                            <p>Mesure du diamètre réel du trou (diagraphie de calibre), essentiel pour corriger d'autres mesures.</p>
+                        </div>
+                        
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-angle-double-down"></i>
+                            </div>
+                            <h4>Inclinaison (Verticalité)</h4>
+                            <p>Mesure de l'écart par rapport à la verticale.</p>
+                        </div>
+                        
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-compass"></i>
+                            </div>
+                            <h4>Orientation et Azimuth</h4>
+                            <p>Détermination de l'orientation spatiale du forage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="phase-section">
+                    <h3><span class="phase-number">2</span> Deuxième Enregistrement (Propriétés des Formations)</h3>
+                    <p class="phase-intro">Cette phase utilise des outils pour évaluer les propriétés électriques et radioactives des roches :</p>
+                    
+                    <div class="measures-grid">
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-plug"></i>
+                            </div>
+                            <h4>Potentiel Spontané (SP)</h4>
+                            <p>Mesure des courants électriques naturels dans le trou de forage, utile pour déterminer la perméabilité et la lithologie.</p>
+                        </div>
+                        
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-wave-square"></i>
+                            </div>
+                            <h4>Résistances (16'' et 64'' - Normales)</h4>
+                            <p>Mesures de la résistivité électrique des formations à différentes profondeurs d'investigation (16 pouces et 64 pouces), permettant de détecter les zones saturées en hydrocarbures ou en eau salée.</p>
+                        </div>
+                        
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-battery-half"></i>
+                            </div>
+                            <h4>Résistance Mono Électrodique</h4>
+                            <p>Une autre mesure de résistivité (souvent moins profonde).</p>
+                        </div>
+                        
+                        <div class="measure-card">
+                            <div class="measure-icon">
+                                <i class="fas fa-radiation"></i>
+                            </div>
+                            <h4>Gamma Naturel (GR)</h4>
+                            <p>Mesure de la radioactivité naturelle des roches, principalement utilisée pour identifier les shales (argiles).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Besoin d'une diagraphie pour votre forage ?</h3>
+                    <p>Contactez-nous pour une évaluation personnalisée de vos besoins</p>
+                    <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LOGPLUS</h3>
+                    <p>Diagraphie & Caméra Vidéo et Réhabilitation des Forages.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +212 6XX XX XX XX</li>
+                        <li><i class="fas fa-envelope"></i> Abdelhakkhayari00@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LOGPLUS. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

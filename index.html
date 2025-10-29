@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LOGPLUS - Expert en Hydrogéologie, Diagraphie, Caméra Vidéo et Réhabilitation des Forages au Maroc">
+    <meta name="keywords" content="diagraphie, forage, hydrogéologie, caméra vidéo, réhabilitation, Maroc, LOGPLUS">
+    <title>LOGPLUS - Diagraphie & Caméra Vidéo et Réhabilitation des Forages</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                        <img src="logo.png" alt="LOGPLUS Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h1>LOGPLUS</h1>
+                            <p class="tagline">DIAGRAPHIE & CAMERA VIDEO ET RÉHABILITATION DES FORAGES</p>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#entreprise">L'Entreprise</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="materiel-modern.html">Matériel</a></li>
+                        <li><a href="#stats">Nos Chiffres</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#hero" onclick="toggleMobileMenu()">Accueil</a></li>
+            <li><a href="#entreprise" onclick="toggleMobileMenu()">L'Entreprise</a></li>
+            <li><a href="#services" onclick="toggleMobileMenu()">Services</a></li>
+            <li><a href="materiel-modern.html" onclick="toggleMobileMenu()">Matériel</a></li>
+            <li><a href="#stats" onclick="toggleMobileMenu()">Nos Chiffres</a></li>
+            <li><a href="#contact" onclick="toggleMobileMenu()">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('hero-1 .jpg');"></div>
+            <div class="hero-slide" style="background-image: url('hero-2.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('hero-3.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('hero-4.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('hero-5.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('hero-6.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('hero-7.jpg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">DIAGRAPHIE & CAMERA VIDEO ET RÉHABILITATION DES FORAGES</h1>
+                <p class="hero-subtitle">Des solutions professionnelles adaptées à tous vos besoins de forages</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Nos Services</a>
+                    <a href="#contact" class="btn btn-secondary">Contactez-nous</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Services</h2>
+                <p>Des solutions professionnelles adaptées à tous vos besoins en matière de forages</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Diagraphie</h3>
+                    <p>Mesures géophysiques complètes pour caractériser vos forages : température, conductivité, résistivité, gamma ray naturel, et plus encore.</p>
+                    <a href="diagraphie.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Caméra Vidéo</h3>
+                    <p>Inspection visuelle haute définition avec caméras Geovista. Vue axiale et panoramique 360° pour un diagnostique complet.</p>
+                    <a href="camera.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Diagnostique de Forages</h3>
+                    <p>Analyse approfondie de l'état de vos forages pour identifier les problèmes et proposer des solutions adaptées.</p>
+                    <a href="diagnostic.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Réhabilitation</h3>
+                    <p>Régénération complète de vos forages : nettoyage mécanique, AirShock, air-lift, et techniques avancées de régénération.</p>
+                    <a href="rehabilitation.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Rechemisage</h3>
+                    <p>Réparation et renforcement structurel de vos forages avec des techniques modernes et durables.</p>
+                    <a href="rechemisage.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Essai de Pompage</h3>
+                    <p>On effectue des pompages à débit constant sur une longue durée (de plusieurs heures à plusieurs jours, voire plusieurs semaines) en observant les niveaux d'eau et les débits de pompage.</p>
+                    <a href="essai-pompage.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="entreprise">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>À Propos de LOGPLUS</h2>
+                    <p class="lead">Nous sommes votre partenaire de confiance pour l'inspection, le diagnostique et la réhabilitation de vos forages. Notre expertise et notre équipement de pointe garantissent des solutions efficaces et durables.</p>
+                    <p>Votre système de forage se fait vieux ou est abîmé ? Le débit de votre forage a diminué ? Il est temps d'effectuer une régénération pour éviter une fermeture définitive de l'ouvrage.</p>
+                    <p>LOGPLUS est une entreprise qui a été fondée en 2021, et ses dirigeants ont une quinzaine d'années d'expérience dans le domaine. Nous mettons à votre disposition notre expertise technique et notre parc matériel moderne pour répondre à tous vos besoins en matière d'inspection, de diagnostique et de réhabilitation de forages.</p>
+                    <p>Nous vous proposons des solutions comme le diagnostique par caméra-vidéo, régénération, développement et pompage d'essai afin d'améliorer la qualité et remettre en état vos forages d'eau. Notre équipe d'experts qualifiés intervient sur l'ensemble du territoire marocain avec des équipements de pointe pour garantir la qualité et la fiabilité de nos prestations.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Équipements Modernes</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expertise Technique</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Interventions Rapides</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Service de Qualité</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="about-slider-container">
+                        <div class="about-slider">
+                            <div class="about-slide active">
+                                <img src="about-1.jpg" alt="LOGPLUS - Équipe sur le terrain" onerror="this.src='https://via.placeholder.com/600x400/1a5490/ffffff?text=Équipe+LOGPLUS'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-2.jpg" alt="LOGPLUS - Équipements modernes" onerror="this.src='https://via.placeholder.com/600x400/2ecc71/ffffff?text=Équipements+Modernes'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-3.jpg" alt="LOGPLUS - Intervention forage" onerror="this.src='https://via.placeholder.com/600x400/3498db/ffffff?text=Intervention+Forage'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-4.jpg" alt="LOGPLUS - Caméra vidéo" onerror="this.src='https://via.placeholder.com/600x400/e74c3c/ffffff?text=Caméra+Vidéo'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-5.jpg" alt="LOGPLUS - Diagraphie" onerror="this.src='https://via.placeholder.com/600x400/9b59b6/ffffff?text=Diagraphie'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-6.jpg" alt="LOGPLUS - Réhabilitation" onerror="this.src='https://via.placeholder.com/600x400/f39c12/ffffff?text=Réhabilitation'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-7.jpg" alt="LOGPLUS - Essai de pompage" onerror="this.src='https://via.placeholder.com/600x400/16a085/ffffff?text=Essai+de+Pompage'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-8.jpg" alt="LOGPLUS - Rechemisage" onerror="this.src='https://via.placeholder.com/600x400/d35400/ffffff?text=Rechemisage'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-9.jpg" alt="LOGPLUS - AirShock" onerror="this.src='https://via.placeholder.com/600x400/8e44ad/ffffff?text=AirShock'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-10.jpg" alt="LOGPLUS - Treuil diagraphie" onerror="this.src='https://via.placeholder.com/600x400/c0392b/ffffff?text=Treuil+Diagraphie'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-11.jpg" alt="LOGPLUS - Sonde gamma" onerror="this.src='https://via.placeholder.com/600x400/27ae60/ffffff?text=Sonde+Gamma'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-12.jpg" alt="LOGPLUS - Résistivité" onerror="this.src='https://via.placeholder.com/600x400/2980b9/ffffff?text=Résistivité'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-13.jpg" alt="LOGPLUS - Conductivité" onerror="this.src='https://via.placeholder.com/600x400/8e44ad/ffffff?text=Conductivité'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-14.jpg" alt="LOGPLUS - Localisateur CCL" onerror="this.src='https://via.placeholder.com/600x400/f39c12/ffffff?text=Localisateur+CCL'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-15.jpg" alt="LOGPLUS - Air-lift" onerror="this.src='https://via.placeholder.com/600x400/e74c3c/ffffff?text=Air-lift'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-16.jpg" alt="LOGPLUS - Compresseur" onerror="this.src='https://via.placeholder.com/600x400/1abc9c/ffffff?text=Compresseur'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-17.jpg" alt="LOGPLUS - Pompe immergée" onerror="this.src='https://via.placeholder.com/600x400/34495e/ffffff?text=Pompe+Immergée'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-18.jpg" alt="LOGPLUS - Flexible hydraulique" onerror="this.src='https://via.placeholder.com/600x400/16a085/ffffff?text=Flexible+Hydraulique'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-19.jpg" alt="LOGPLUS - Trépied palan" onerror="this.src='https://via.placeholder.com/600x400/d35400/ffffff?text=Trépied+Palan'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-20.jpg" alt="LOGPLUS - Intervention terrain" onerror="this.src='https://via.placeholder.com/600x400/c0392b/ffffff?text=Intervention+Terrain'">
+                            </div>
+                            <div class="about-slide">
+                                <img src="about-21.jpg" alt="LOGPLUS - Équipe complète" onerror="this.src='https://via.placeholder.com/600x400/2c3e50/ffffff?text=Équipe+Complète'">
+                            </div>
+                        </div>
+                        <button class="about-slider-btn prev" onclick="changeAboutSlide(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="about-slider-btn next" onclick="changeAboutSlide(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="about-slider-dots">
+                            <span class="dot active" onclick="currentAboutSlide(0)"></span>
+                            <span class="dot" onclick="currentAboutSlide(1)"></span>
+                            <span class="dot" onclick="currentAboutSlide(2)"></span>
+                            <span class="dot" onclick="currentAboutSlide(3)"></span>
+                            <span class="dot" onclick="currentAboutSlide(4)"></span>
+                            <span class="dot" onclick="currentAboutSlide(5)"></span>
+                            <span class="dot" onclick="currentAboutSlide(6)"></span>
+                            <span class="dot" onclick="currentAboutSlide(7)"></span>
+                            <span class="dot" onclick="currentAboutSlide(8)"></span>
+                            <span class="dot" onclick="currentAboutSlide(9)"></span>
+                            <span class="dot" onclick="currentAboutSlide(10)"></span>
+                            <span class="dot" onclick="currentAboutSlide(11)"></span>
+                            <span class="dot" onclick="currentAboutSlide(12)"></span>
+                            <span class="dot" onclick="currentAboutSlide(13)"></span>
+                            <span class="dot" onclick="currentAboutSlide(14)"></span>
+                            <span class="dot" onclick="currentAboutSlide(15)"></span>
+                            <span class="dot" onclick="currentAboutSlide(16)"></span>
+                            <span class="dot" onclick="currentAboutSlide(17)"></span>
+                            <span class="dot" onclick="currentAboutSlide(18)"></span>
+                            <span class="dot" onclick="currentAboutSlide(19)"></span>
+                            <span class="dot" onclick="currentAboutSlide(20)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="section-header">
+                <h2>LOGPLUS en Chiffres</h2>
+                <p>Notre expertise au service de vos projets</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fas fa-project-diagram stat-icon"></i>
+                    <h3>500+ Projets</h3>
+                    <p>Forages inspectés et réhabilités avec succès</p>
+                </div>
+                
+                <div class="stat-item">
+                    <i class="fas fa-users stat-icon"></i>
+                    <h3>200+ Clients</h3>
+                    <p>Clients satisfaits à travers le Maroc</p>
+                </div>
+                
+                <div class="stat-item">
+                    <i class="fas fa-award stat-icon"></i>
+                    <h3>Depuis 2021</h3>
+                    <p>15+ ans d'expérience de nos dirigeants</p>
+                </div>
+                
+                <div class="stat-item">
+                    <i class="fas fa-tools stat-icon"></i>
+                    <h3>Équipements</h3>
+                    <p>Matériel moderne et performant</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contactez-nous</h2>
+                <p>Notre équipe est à votre écoute pour répondre à vos besoins</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+212 6XX XX XX XX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>Abdelhakkhayari00@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>Maroc</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horaires</h4>
+                            <p>Lun - Ven : 8h00 - 18h00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="sendEmail(event)">
+                        <div class="form-group">
+                            <input type="text" id="contactName" name="name" placeholder="Votre nom *" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" name="email" placeholder="Votre email *" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="contactPhone" name="phone" placeholder="Votre téléphone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="contactService" name="service" required>
+                                <option value="">Sélectionnez un service *</option>
+                                <option value="diagraphie">Diagraphie</option>
+                                <option value="camera">Caméra Vidéo</option>
+                                <option value="diagnostic">Diagnostique de Forages</option>
+                                <option value="rehabilitation">Réhabilitation</option>
+                                <option value="rechemisage">Rechemisage</option>
+                                <option value="essai-pompage">Essai de Pompage</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="contactMessage" name="message" rows="5" placeholder="Votre message *" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LOGPLUS</h3>
+                    <p>Expert en Hydrogéologie, Diagraphie et Réhabilitation des Forages.</p>
+                    <p>Solutions professionnelles pour l'inspection et la maintenance de vos ouvrages de captage d'eau.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="diagraphie.html">Diagraphie</a></li>
+                        <li><a href="camera.html">Caméra Vidéo</a></li>
+                        <li><a href="diagnostic.html">Diagnostique</a></li>
+                        <li><a href="rehabilitation.html">Réhabilitation</a></li>
+                        <li><a href="rechemisage.html">Rechemisage</a></li>
+                        <li><a href="essai-pompage.html">Essai de Pompage</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +212 6XX XX XX XX</li>
+                        <li><i class="fas fa-envelope"></i> Abdelhakkhayari00@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Maroc</li>
+                    </ul>
+                    
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 LOGPLUS. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("yd9dMlAsmteehM-Kq");
+        })();
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
